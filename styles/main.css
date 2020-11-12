@@ -1,0 +1,19 @@
+/* Card Styling */
+
+.card {
+  border: solid black 2px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+/* Body Styling */
+.top-header {
+  display: flex;
+  justify-content: center;
+}
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}

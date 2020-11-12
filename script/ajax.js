@@ -12,11 +12,11 @@ const ajax = (url, callback, method='GET')=>{
 
 
     //Setting some headers...Don't sweat it right now
-    request.setRequestHeader("X-Requested-With","XMLHttpRequest");
-    request.setRequestHeader("Access-Control-Allow-Origin","*");
+    // request.setRequestHeader("X-Requested-With","XMLHttpRequest");
+    // request.setRequestHeader("Access-Control-Allow-Origin","*");
     
-    //request.setRequestHeader("Content-Type","application/json");
-    //request.setRequestHeader("Accept","application/json");
+    // request.setRequestHeader("Content-Type","application/json");
+    // request.setRequestHeader("Accept","application/json");
     //Use above for APIs in the future
     
     request.send()
